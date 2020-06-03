@@ -17,6 +17,7 @@
         $username = $cookie['username'];
         $password = $cookie['password'];
         $loggedin = false;
+        echo "WITAJ";
     }
     if(!empty($users[$username]) && $users[$username] == $password) {
         $cookie = array(
